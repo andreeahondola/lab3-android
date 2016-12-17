@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/labelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/textDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/labelImgUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDog"
+        android:layout_centerHorizontal="true"
+        android:text="@string/img_url"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/imgUrlDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelImgUrl"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:inputType="textUri"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/createDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/imgUrlDog"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/create" />
+
+    <Button
+        android:id="@+id/cancelCreateDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/imgUrlDog"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/cancel" />
+
+</RelativeLayout>

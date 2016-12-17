@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dog_list"
+    android:name="com.examsple.ilazar.mykeep.DogListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alphaboss.dogapp.ui.DogListActivity"
+    tools:listitem="@layout/dog_list_content" />
